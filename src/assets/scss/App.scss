@@ -1,3 +1,16 @@
 @import "abstract/variables";
 @import 'bootstrap/scss/bootstrap.scss';
 @import "abstract/base";
+
+
+.btn-a{
+    background-color: $btnA;
+    color: white;
+}
+.btn-b{
+    background-color: $btnB;
+    color: white;
+}
+.fade{
+    background-color: #00000062;
+}

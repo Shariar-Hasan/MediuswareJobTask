@@ -3,11 +3,9 @@ import { getItems, pushItem } from '../utils/localStorage';
 import { stringMatch } from '../utils/utilityFunctions';
 
 const Problem1 = () => {
-
     const [show, setShow] = useState('all');
     const [data, setData] = useState({});
     const [list, setList] = useState([]);
-
     useEffect(() => {
         getNewDataList()
     }, [show])
